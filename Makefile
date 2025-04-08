@@ -37,7 +37,7 @@ cmilker:
 deps:
 	@echo "Installing dependencies..."
 	@python -m venv .venv
-	@.venv/bin/pip install PyQt6
+	@.venv/bin/pip install -r requirements.txt
 	@echo "Dependencies installed"
 
 uninstall:

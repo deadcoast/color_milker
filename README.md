@@ -23,7 +23,7 @@ A simple utility for grabbing colors from anywhere on your screen and creating c
 
 ```bash
 # Clone the repository
-git clone [repository-url] color_milker
+git clone https://github.com/deadcoast/color_milker color_milker
 cd color_milker
 
 # Install dependencies
@@ -43,7 +43,7 @@ cmilker
 
 ```bash
 # Clone the repository
-git clone [repository-url] color_milker
+git clone https://github.com/deadcoast/color_milker color_milker
 cd color_milker
 
 # Create virtual environment and install dependencies
