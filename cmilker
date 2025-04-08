@@ -1,0 +1,13 @@
+#!/bin/bash
+# Color Milker terminal wrapper
+INSTALL_DIR=INSTALL_DIR_PLACEHOLDER
+VENV_DIR=VENV_DIR_PLACEHOLDER
+
+# Activate virtual environment if it exists
+if [ -f "$VENV_DIR/bin/activate" ]; then
+    source "$VENV_DIR/bin/activate"
+fi
+
+# Run the application
+python "$INSTALL_DIR/src/main.py" "$@"
+
